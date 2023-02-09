@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-28T00:13:29 IST" name="Default suite" finished-at="2023-01-28T00:14:58 IST" duration-ms="88848">
+    <groups>
+    </groups>
+    <test started-at="2023-01-28T00:13:29 IST" name="Default test" finished-at="2023-01-28T00:14:58 IST" duration-ms="88848">
+      <class name="TESTNG.Flipcart_periort">
+        <test-method is-config="true" signature="Broeser_Launch()[pri:0, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:27 IST" name="Broeser_Launch" finished-at="2023-01-28T00:13:29 IST" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Broeser_Launch -->
+        <test-method is-config="true" signature="Browser_Launch()[pri:0, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:29 IST" name="Browser_Launch" finished-at="2023-01-28T00:13:35 IST" duration-ms="5736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method is-config="true" signature="Toverify_curentPage()[pri:0, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:35 IST" name="Toverify_curentPage" finished-at="2023-01-28T00:13:38 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Toverify_curentPage -->
+        <test-method signature="Search_Product()[pri:1, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:38 IST" name="Search_Product" finished-at="2023-01-28T00:13:39 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Product -->
+        <test-method signature="First_Product()[pri:2, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:39 IST" name="First_Product" finished-at="2023-01-28T00:13:44 IST" duration-ms="4797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- First_Product -->
+        <test-method signature="First_productprice()[pri:3, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:44 IST" name="First_productprice" finished-at="2023-01-28T00:13:51 IST" duration-ms="7306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- First_productprice -->
+        <test-method signature="Second_proudcuct()[pri:4, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:51 IST" name="Second_proudcuct" finished-at="2023-01-28T00:13:55 IST" duration-ms="3876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Second_proudcuct -->
+        <test-method signature="Second_proudcuctprice()[pri:5, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:55 IST" name="Second_proudcuctprice" finished-at="2023-01-28T00:13:55 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Second_proudcuctprice -->
+        <test-method signature="Add_TO_TwoProduct_price()[pri:6, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:55 IST" name="Add_TO_TwoProduct_price" finished-at="2023-01-28T00:13:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_TO_TwoProduct_price -->
+        <test-method signature="switch_toparentwindow()[pri:7, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:13:55 IST" name="switch_toparentwindow" finished-at="2023-01-28T00:14:05 IST" duration-ms="9235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_toparentwindow -->
+        <test-method signature="Add_TocartIn_TwoPrice()[pri:8, instance:TESTNG.Flipcart_periort@5403f35f]" started-at="2023-01-28T00:14:05 IST" name="Add_TocartIn_TwoPrice" finished-at="2023-01-28T00:14:58 IST" duration-ms="53100" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='YUhWwv']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9O42QPI', ip: '192.168.253.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fa56f9614d6b5f082a18084fac88a0e
+*** Element info: {Using=xpath, value=//div[@class='YUhWwv']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='YUhWwv']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9O42QPI', ip: '192.168.253.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fa56f9614d6b5f082a18084fac88a0e
+*** Element info: {Using=xpath, value=//div[@class='YUhWwv']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TESTNG.Flipcart_periort.Add_TocartIn_TwoPrice(Flipcart_periort.java:184)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_TocartIn_TwoPrice -->
+      </class> <!-- TESTNG.Flipcart_periort -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
